@@ -2,14 +2,14 @@ body {
     line-height: 1.7em;
     font-family: 'Merriweather', serif;
     font-weight: 300;
-    font-size: 1.2em
+    font-size: 1.2em;
 }
 header {
     width: 100%;
     text-align: center;
     border-radius: 0 0 5px 5px;
     color: #222;
-    padding-bottom: 1em
+    padding-bottom: 1em;
 }
 header,
 h1,
@@ -98,7 +98,13 @@ article ul {
         float: left;
         margin-bottom: 1em;
         padding: 0 1em 1em;
-    }    
+    }
+    
+    .blockgrid h2, footer{
+        color: #FFF;
+        font-weight: bold;
+        background-color: #DB4C2F;  
+    }
 
     .blockgrid-wide {
         width:100%;
@@ -168,7 +174,6 @@ span.techlist {
     padding-top: .4em
 }
 footer {
-    color: #7f8c8d;
     border-radius: 5px 5px 0 0;
     padding: 15px
 }
