@@ -44,7 +44,7 @@ ul.navbar-nav li.active {
     border-radius: 7px;
     margin-bottom: 20px
 }
-.blockgrid>article {
+.blockgrid>article, .blockgrid-wide>article{
     box-shadow: 0 0 2px #888;
     border-width: 1px;
     border-radius: 7px;
@@ -54,7 +54,7 @@ ul.navbar-nav li.active {
 
 .blockgrid>ul>li>article {
     margin-top: 1.5em;
-    padding: 0 1em 1em
+    padding: 0 1em 1em;
 }
 article ul {
     padding-left: 1.5em
@@ -82,18 +82,31 @@ article ul {
     }
 }
 
+#social li{
+    list-style-type: none;
+    text-align: center;
+}
+
 @media screen and (min-width: 992px) {
-	img{
-		display:none;
+    #social img{
+	   max-width: 1.3em;
+       vertical-align: text-top;
 	}
 
     .blockgrid {
         width: 48%;
         float: left;
-        margin-bottom: 40px;
+        margin-bottom: 1em;
+        padding: 0 1em 1em;
+    }    
+
+    .blockgrid-wide {
+        width:100%;
+        float: left;
+        margin-bottom: 1em;
         padding: 2em;
     }    
-    
+      
     .blockgrid>ul>li {
         width: 48%;
         float: left;
