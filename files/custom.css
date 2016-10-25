@@ -82,6 +82,8 @@ article ul {
     }
 }
 
+@page { size: auto;  margin: 0mm; }
+
 #social li{
     list-style-type: none;
     text-align: center;
